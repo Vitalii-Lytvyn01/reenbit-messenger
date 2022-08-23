@@ -1,0 +1,133 @@
+.chat-section {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 70px 1fr 80px;
+  width: 100%;
+  height: 100%;
+  // background-color: red;
+
+  &__info {
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    width: 100%;
+    border-bottom: 1px solid rgb(177, 177, 177);
+    // background-color: red;
+
+    .info__image {
+      width: 50px;
+      height: 50px;
+      background-size: cover;
+      background-position: center;
+      border-radius: 50%;
+      background-image: url('../../Util/Images/default-placeholder-profile-icon-avatar-gray-man-90197971.jpg');
+      margin-right: 10px;
+      flex-shrink: 0;
+    }
+
+    .info__name {
+      font-size: 20px;
+      font-weight: 600;
+    }
+  }
+
+  &__messages {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-bottom: 1px solid rgb(177, 177, 177);
+    overflow: auto;
+    padding: 10px 16px 0;
+
+    .message {
+      min-height: 70px;
+      margin-bottom: 20px;
+    }
+
+    .contact-message {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      flex-shrink: 0;
+
+      &__image {
+        width: 50px;
+        height: 50px;
+        background-size: cover;
+        background-position: center;
+        border-radius: 50%;
+        background-image: url('../../Util/Images/default-placeholder-profile-icon-avatar-gray-man-90197971.jpg');
+        margin-right: 10px;
+        flex-shrink: 0;
+      }
+
+      &__info {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+
+        .text {
+          font-size: 18px;
+          padding: 10px 16px;
+          min-height: 50px;
+          overflow-wrap: break-word;
+          background-color: rgb(65, 65, 65);
+          color: white;
+          border-radius: 30px;
+        }
+      }
+    }
+
+    .own-message {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      width: 100%;
+      flex-shrink: 0;
+
+      .text {
+        font-size: 18px;
+          padding: 10px 16px;
+          min-height: 50px;
+          overflow-wrap: break-word;
+          background-color: rgb(196, 196, 196);
+          color: black;
+          border-radius: 30px;
+      }
+    }
+  }
+
+  &__text-input {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0 16px;
+
+    .input-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      height: 50px;
+      border: 1px solid rgb(177, 177, 177);
+      border-radius: 30px;
+      padding: 0 16px;
+
+
+      .text-input {
+        outline: none;
+        border: none;
+        width: 80%;
+      }
+
+      .send-button {
+        width: 24px;
+        height: 24px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url('../../Util/Images/send-button.png');
+        cursor: pointer;
+      }
+    }
+  }
+}
