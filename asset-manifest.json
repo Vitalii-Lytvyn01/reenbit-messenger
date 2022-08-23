@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/reenbit-messenger/static/css/main.03b74c60.css",
+    "main.js": "/reenbit-messenger/static/js/main.4b336271.js",
+    "static/js/787.c84d7f9a.chunk.js": "/reenbit-messenger/static/js/787.c84d7f9a.chunk.js",
+    "static/media/default-placeholder-profile-icon-avatar-gray-man-90197971.jpg": "/reenbit-messenger/static/media/default-placeholder-profile-icon-avatar-gray-man-90197971.1f81cb1a35a6f677f283.jpg",
+    "static/media/search-svgrepo-com.svg": "/reenbit-messenger/static/media/search-svgrepo-com.9b3b23939df0bf73e3dc.svg",
+    "index.html": "/reenbit-messenger/index.html",
+    "main.03b74c60.css.map": "/reenbit-messenger/static/css/main.03b74c60.css.map",
+    "main.4b336271.js.map": "/reenbit-messenger/static/js/main.4b336271.js.map",
+    "787.c84d7f9a.chunk.js.map": "/reenbit-messenger/static/js/787.c84d7f9a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.03b74c60.css",
+    "static/js/main.4b336271.js"
+  ]
+}
