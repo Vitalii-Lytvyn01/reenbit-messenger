@@ -1,7 +1,5 @@
 import React from "react";
 import './Chat.scss';
-import classNames from "classnames";
-
 
 export default class Chat extends React.Component {
 

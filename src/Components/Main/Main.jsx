@@ -2,7 +2,6 @@ import React from "react";
 import './Main.scss';
 import Chat from '../Chat/Chat';
 import getMessage from '../../API/Messages';
-import jsonString from '../../API/InitialValues.js';
 import initialChats from '../../API/InitalChats.js';
 
 

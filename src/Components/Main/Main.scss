@@ -10,6 +10,15 @@
     border-bottom: 1px solid rgb(177, 177, 177);
 
     margin: 0 auto;
+    
+
+    @media (max-width: 1000px) {
+      grid-template-columns: 300px 1fr;
+    }
+
+    @media (max-width: 768px) {
+      grid-template-columns: 160px 1fr;
+    }
 
     .contacts {
       display: flex;
@@ -34,6 +43,10 @@
           border-radius: 50%;
           background-image: url('../../Util/Images/default-placeholder-profile-icon-avatar-gray-man-90197971.jpg');
           margin-right: 30px;
+
+          @media (max-width: 768px) {
+            display: none;
+          }
         }
 
         &__name {
@@ -78,6 +91,10 @@
           cursor: pointer;
           padding: 0 16px;
           flex-shrink: 0;
+
+          @media (max-width: 768px) {
+            padding: 0px 6px;
+          }
           
           &:hover {
             background-color: rgb(228, 228, 228);
@@ -99,10 +116,17 @@
             flex-direction: column;
             justify-content: center;
 
-            .name {
+            @media (max-width: 768px) {
+              // display: none;
+            }
 
+            .name {
               font-size: 20px;
               font-weight: 600;
+
+              @media (max-width: 768px) {
+                font-size: 16px;
+              }
             }
 
             .message {
@@ -111,6 +135,10 @@
               overflow: hidden;
               text-overflow: ellipsis;
               color: gray;
+
+              @media (max-width: 768px) {
+                width: 85px;
+              }
             }
           }
 
@@ -119,6 +147,10 @@
             font-weight: 600;
             flex-grow: 1;
             text-align: end;
+
+            @media (max-width: 1000px) {
+              display: none;
+            }
           }
         }
       }

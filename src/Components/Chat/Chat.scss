@@ -59,6 +59,10 @@
         background-image: url('../../Util/Images/default-placeholder-profile-icon-avatar-gray-man-90197971.jpg');
         margin-right: 10px;
         flex-shrink: 0;
+
+        @media (max-width: 768px) {
+          display: none;
+        }
       }
 
       &__info {
